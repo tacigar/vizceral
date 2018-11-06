@@ -8,6 +8,7 @@
     "url": "git@github.com:Netflix/vizceral.git"
   },
   "scripts": {
+    "prepare": "npm run build",
     "dev": "npm run watch",
     "doc": "documentation build ./src/vizceral.js --shallow -f md > USAGE.md",
     "lint": "eslint src --fix",
